@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="kombirest.model\ActivityDelete\**" />
+    <Compile Remove="kombirest.model\ActivityInsert\**" />
+    <Compile Remove="kombirest.model\ActivityList\**" />
+    <Compile Remove="kombirest.model\CardDelete\**" />
+    <Compile Remove="kombirest.model\CardInsert\**" />
+    <Compile Remove="kombirest.model\CardMemberDelete\**" />
+    <Compile Remove="kombirest.model\CardMemberItem\**" />
+    <Compile Remove="kombirest.model\CardMemberList\**" />
+    <Compile Remove="kombirest.model\ItemDelete\**" />
+    <Compile Remove="kombirest.model\ItemInsert\**" />
+    <Compile Remove="kombirest.model\ItemList\**" />
+    <EmbeddedResource Remove="kombirest.model\ActivityDelete\**" />
+    <EmbeddedResource Remove="kombirest.model\ActivityInsert\**" />
+    <EmbeddedResource Remove="kombirest.model\ActivityList\**" />
+    <EmbeddedResource Remove="kombirest.model\CardDelete\**" />
+    <EmbeddedResource Remove="kombirest.model\CardInsert\**" />
+    <EmbeddedResource Remove="kombirest.model\CardMemberDelete\**" />
+    <EmbeddedResource Remove="kombirest.model\CardMemberItem\**" />
+    <EmbeddedResource Remove="kombirest.model\CardMemberList\**" />
+    <EmbeddedResource Remove="kombirest.model\ItemDelete\**" />
+    <EmbeddedResource Remove="kombirest.model\ItemInsert\**" />
+    <EmbeddedResource Remove="kombirest.model\ItemList\**" />
+    <None Remove="kombirest.model\ActivityDelete\**" />
+    <None Remove="kombirest.model\ActivityInsert\**" />
+    <None Remove="kombirest.model\ActivityList\**" />
+    <None Remove="kombirest.model\CardDelete\**" />
+    <None Remove="kombirest.model\CardInsert\**" />
+    <None Remove="kombirest.model\CardMemberDelete\**" />
+    <None Remove="kombirest.model\CardMemberItem\**" />
+    <None Remove="kombirest.model\CardMemberList\**" />
+    <None Remove="kombirest.model\ItemDelete\**" />
+    <None Remove="kombirest.model\ItemInsert\**" />
+    <None Remove="kombirest.model\ItemList\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="kombirest.model\SampleModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>
